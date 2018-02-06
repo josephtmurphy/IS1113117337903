@@ -9,6 +9,8 @@ body {
 .btn {
     background-color: red;
     border: 2px solid black;
+    width: 300px;
+    margin:auto;
     color: white;
     padding: 10px 28px;
     text-align: center;
