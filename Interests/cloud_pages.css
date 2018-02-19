@@ -1,0 +1,22 @@
+#section1{
+    background-color: navy;
+}
+
+#section2{
+    background-color: turquoise;
+}
+
+#section3{
+    background-color: orange;
+}
+
+#section4{
+    background-color: red;
+    
+}
+
+.section{
+    text-align: center;
+    color: white;
+    font-size: 25px
+}
