@@ -7,11 +7,27 @@ session_start();
         <title>RECEIPT</title>
     </head>
     <body>
-        <h4>RECEIPT</h4>
+        <h2>PURCHASE RECEIPT</h2>
         
         <?php
         //Echo session variables that were set on previous page
-        echo "Total is ." . $_SESSION["total"] . ".";
+        echo "Purchased by " . $_SESSION["name"] . ".";
+        ?>
+        
+        <br/>
+        <br/>
+        
+        <?php
+        //Echo session variables that were set on previous page
+        echo "Email address: " . $_SESSION["email"];
+        ?>
+        
+        <br/>
+        <br/>
+        
+        <?php
+        //Echo session variables that were set on previous page
+        echo "Total is " . $_SESSION["total"] . ".";
         ?>
         
         <a href="homepage.html" class="btn" style="width:250px;height:150px">

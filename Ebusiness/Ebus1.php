@@ -14,7 +14,7 @@
     <body>
         <center>
         <div style="background-color": rgb(0, 140, 1000); height:100vh>
-        <h4>Select a product</h4>
+        <h2>Select a product:</h2>
         
         <br/>
         
@@ -56,10 +56,26 @@
             
             <br/>
             
+            <label for="discount">
+                Discount
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            
+            <label for="VAT">
+                Total
+                <input type="text" id="vat" name="vat" value="0.00" readonly/>
+            </label>
+            
+            <br/>
+            
             <label for="total">
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
+            
+            <br/>
             
             <br/>
             
