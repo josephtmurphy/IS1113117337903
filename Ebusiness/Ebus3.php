@@ -7,8 +7,8 @@ session_start();
         <title>RECEIPT</title>
     </head>
     <body>
+        <center>
         <h2>PURCHASE RECEIPT</h2>
-        
         <?php
         //Echo session variables that were set on previous page
         echo "Purchased by " . $_SESSION["name"] . ".";
@@ -27,9 +27,10 @@ session_start();
         
         <?php
         //Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo "Total is " . $_SESSION["total"] . " euros.";
         ?>
         
         <a href="homepage.html" class="btn" style="width:250px;height:150px">
+        </center>
     </body>
 </html>

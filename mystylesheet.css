@@ -19,11 +19,25 @@ body {
     font-size: 20px;
 }
 
+.btn2 {
+    background-color: green;
+    border: 2px solid black;
+    width: 300px;
+    margin:auto;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    font-size: 20px;
+}
+
 .btn:hover {
     background-color: darkred;
     color: white;
 }
 
-.hover_img a { position:relative; }
-.hover_img a span { position:absolute; display:none; z-index:99; }
-.hover_img a:hover span { display:block; }
+.btn2:hover {
+    background-color: darkgreen;
+    color: white;
+}
