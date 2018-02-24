@@ -18,5 +18,11 @@
 .section{
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+p {
+    font-size: 17px;
+    font-family: arial;
 }
