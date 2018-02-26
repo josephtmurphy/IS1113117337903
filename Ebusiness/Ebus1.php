@@ -11,27 +11,35 @@
          
     </head>
     
+    <style>
+        body {
+                background-image: url(https://images.fineartamerica.com/images-medium-large-5/austin-daytime-skyline-tod-and-cynthia-grubbs.jpg);
+                font: 18px arial;
+                color: black;
+                text-align: center;
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+        }
+        h1 {
+            color: blue;
+        }
+    </style>
+    
     <body>
         <center>
-        <div style="background-color": rgb(0, 140, 1000); height:100vh>
+            
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+        <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
+        <h1>SephTech Cloud Computing Ltd.</h1>
         <h2>Select a product:</h2>
         
         <form method="POST" action="Ebus2.php">
-            
-            <label for="name">
-                Name:
-                <input type="text" id="name" placeholder="Name" name="name" maxlength="30">
-            </label>
-                
-                <br/>
-                
-            <label for="email">
-                Email:
-                <input type="text" id="email" placeholder="Email" name="email" maxlength="30">
-            </label>
-            
-            <br/>
-            <br/>
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -92,13 +100,15 @@
             
             <br/>
             
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" class="btn2" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         
         <br/>
-        <button class="btn2" onClick="calcSub()", "calcDisVAT()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php" class="btn btn-Clear">Clear Choice</a>
+        <button class="btn" onClick="calcSub()", "calcDisVAT()">Calculate Cost</button>
+        </br>
+        <a role="button" href="Ebus1.php" class="btn">Clear Choice</a>
+        </br>
         
         </center>
         </div>
