@@ -15,6 +15,20 @@ function validateDetails(){
     else{
         enablebtnPurchase();
         }
+        
+    var cardnum;
+    
+    cardnum = document.getElementById("cardnum").value;
+        
+    if (cardnum==""){
+        alert("Please enter your card number");
+    }
+    else if (String(cardnum).length<16){
+        alert("Please make sure your card number is fully complete")
+    }
+    else{
+        enablebtnPurchase();
+    }
 }
 
 function enablebtnPurchase(){

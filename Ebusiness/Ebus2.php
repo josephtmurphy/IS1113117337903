@@ -39,7 +39,7 @@ session_start();
         <br/>
         
         <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
-        <h1>SephTech Cloud Computing Ltd.</h1>
+        <h1>Excelsior Cloud Computing Ltd.</h1>
         <h2>Please enter your payment details.</h2>
             
             <form method ="POST" action = "Ebus3.php">
@@ -54,7 +54,7 @@ session_start();
                 
             <label for="email">
                 Email:
-                <input type="text" id="email" placeholder="Email" name="email" maxlength="30">
+                <input type="email" id="email" placeholder="Email" name="email" maxlength="30">
             </label>
             
             <br/>

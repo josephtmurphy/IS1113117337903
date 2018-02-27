@@ -21,6 +21,7 @@
                 background-size: cover;
                 background-position: center;
         }
+        
         h1 {
             color: blue;
         }
@@ -36,7 +37,7 @@
         <br/>
         
         <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
-        <h1>SephTech Cloud Computing Ltd.</h1>
+        <h1>Excelsior Cloud Computing Ltd.</h1>
         <h2>Select a product:</h2>
         
         <form method="POST" action="Ebus2.php">
@@ -100,7 +101,7 @@
             
             <br/>
             
-            <button type="submit" class="btn2" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         

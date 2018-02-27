@@ -20,6 +20,7 @@ function calcSub(){
     argSubTotal = 400;
 }
 
+enablebtnProceed();
 display(argSubTotal);
 }
 
@@ -72,17 +73,19 @@ function display(parm2){
 }
 
 display(argDiscount);
-
+}
 
 function display(parm3){
     document.getElementById("discount").value = parm3;
     
     enablebtnProceed();
 }
+}
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
 }
+
 function disablebtnProceed(){
     $('btnProceed').prop('disabled', true);
-}}}
+}

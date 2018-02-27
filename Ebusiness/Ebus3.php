@@ -35,7 +35,7 @@ session_start();
         <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
         
         <center>
-        <h1>SephTech Cloud Computing Ltd.</h1>
+        <h1>Excelsior Cloud Computing Ltd.</h1>
         <h2>PURCHASE RECEIPT</h2>
         <?php
         //Echo session variables that were set on previous page
