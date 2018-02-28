@@ -61,6 +61,11 @@ session_start();
         <br/>
         <br/>
         
+        <a href="../homepage.html" class="btn">Home</a>
+        
+        <br/>
+        <br/>
+        
         </center>
         </div>
     </body>
