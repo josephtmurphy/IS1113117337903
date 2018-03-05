@@ -38,9 +38,30 @@
         
         <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
         <h1>Excelsior Cloud Computing Ltd.</h1>
-        <h2>Select a product:</h2>
         
         <form method="POST" action="Ebus2.php">
+            
+            <h3>Please enter your payment details.</h3>
+            
+            <form method ="POST" action = "Ebus3.php">
+                
+                <h4>Personal Details:</h4>
+            <label for="name">
+                Name:
+                <input type="text" id="name" placeholder="Name" name="name" maxlength="30">
+            </label>
+                
+                <br/>
+                
+            <label for="email">
+                Email:
+                <input type="email" id="email" placeholder="Email" name="email" maxlength="30">
+            </label>
+            
+            <br/>
+            <br/>
+            
+            <h3>Select a Product:</h3>
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>

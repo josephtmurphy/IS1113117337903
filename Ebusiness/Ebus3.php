@@ -2,7 +2,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+    <html>
     <head>
         <title>RECEIPT</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />

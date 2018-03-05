@@ -2,7 +2,6 @@
 // start the session
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -40,26 +39,7 @@ session_start();
         
         <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
         <h1>Excelsior Cloud Computing Ltd.</h1>
-        <h2>Please enter your payment details.</h2>
-            
-            <form method ="POST" action = "Ebus3.php">
-                
-                <h4>Personal Details:</h4>
-            <label for="name">
-                Name:
-                <input type="text" id="name" placeholder="Name" name="name" maxlength="30">
-            </label>
-                
-                <br/>
-                
-            <label for="email">
-                Email:
-                <input type="email" id="email" placeholder="Email" name="email" maxlength="30">
-            </label>
-            
-            <br/>
-            <br/>
-            
+        
             <h4>Payment Details:</h4>
                 <label for="cardnum">
                 Card Number:
@@ -76,12 +56,13 @@ session_start();
                     <br/>
                     <br/>
                     
-                <button type="Submit" class="btn2" id="btnPurchase" disabled> 
+                <button type="Submit" id="btnPurchase" disabled> 
                     Proceed with Purchase 
                 </button>
                 
             </form>
             
+            <br/>
             <br/>
             
             <button class="btn2" onClick="validateDetails()"> Validate </button>
