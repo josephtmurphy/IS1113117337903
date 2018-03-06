@@ -6,10 +6,9 @@ session_start();
     <head>
         <title>RECEIPT</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-    </head>
-    
-    <style>
-        body {
+        
+        <style>
+            body {
                 background-image: url(https://images.fineartamerica.com/images-medium-large-5/austin-daytime-skyline-tod-and-cynthia-grubbs.jpg);
                 font: 18px arial;
                 color: black;
@@ -17,12 +16,14 @@ session_start();
                 height: 100vh;
                 background-size: cover;
                 background-position: center;
-        }
+                    }
         
-        h1 {
+            h1 {
             color: blue;
-        }
-    </style>
+                    }
+        </style>
+        
+    </head>
     
     <body>
         

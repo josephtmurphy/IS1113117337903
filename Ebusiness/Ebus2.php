@@ -12,9 +12,8 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-    
-    <style>
+        
+        <style>
         body {
                 background-image: url(https://images.fineartamerica.com/images-medium-large-5/austin-daytime-skyline-tod-and-cynthia-grubbs.jpg);
                 font: 18px arial;
@@ -28,6 +27,8 @@ session_start();
             color: blue;
         }
     </style>
+    
+    </head>
     
     <body>
         

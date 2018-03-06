@@ -9,10 +9,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
          
-    </head>
-    
-    <style>
-        body {
+         <style>
+            body {
                 background-image: url(https://images.fineartamerica.com/images-medium-large-5/austin-daytime-skyline-tod-and-cynthia-grubbs.jpg);
                 font: 18px arial;
                 color: black;
@@ -20,12 +18,14 @@
                 height: 100vh;
                 background-size: cover;
                 background-position: center;
-        }
+            }
         
-        h1 {
+            h1 {
             color: blue;
-        }
-    </style>
+            }
+        </style>
+         
+    </head>
     
     <body>
         <center>
