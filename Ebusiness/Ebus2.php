@@ -41,17 +41,19 @@ session_start();
         <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
         <h1>Excelsior Cloud Computing Ltd.</h1>
         
+        <form method="POST" action="Ebus3.php">
+        
             <h4>Payment Details:</h4>
                 <label for="cardnum">
                 Card Number:
-                <input type="text" id="cardnum" placeholder="Card Number" name="cardnum" maxlength="16" type>
+                <input type="text" id="cardnum" placeholder="Card Number" name="cardnum" maxlength="16">
                 </label>
                     
                     <br/>
                 
                 <label for="pin">
                 PIN:
-                <input type="password" id="user_pin" placeholder="PIN" name="pin" maxlength="4" type>
+                <input type="password" id="user_pin" placeholder="PIN" name="pin" maxlength="4">
                 </label>
                     
                     <br/>
@@ -61,14 +63,12 @@ session_start();
                     Proceed with Purchase 
                 </button>
                 
-            </form>
+        </form>
             
-            <br/>
             <br/>
             
             <button class="btn2" onClick="validateDetails()"> Validate </button>
             
-            <br/>
             <br/>
             
             </div>

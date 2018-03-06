@@ -128,11 +128,12 @@
         
         <br/>
         <button class="btn" onClick="calcSub()">Calculate Cost</button>
-        </br>
+        <br/>
         <a role="button" href="Ebus1.php" class="btn">Clear Choice</a>
-        </br>
+        <br/>
         
-        </center>
         </div>
+        </center>
+
     </body>
 </html>

@@ -62,7 +62,7 @@ session_start();
         
         <p>Thank you for shopping with Excelsior Cloud Computing Ltd!</p>
         
-        <img src="http://www.animatedimages.org/data/media/1574/animated-success-image-0015.gif">
+        <img src="http://www.animatedimages.org/data/media/1574/animated-success-image-0015.gif" alt="success">
         
         <br/>
         <br/>
