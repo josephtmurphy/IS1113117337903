@@ -29,8 +29,6 @@ session_start();
         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
         
         <div style="width:650px; border:6px outset navy;background:lightcyan; margin:auto">
         
@@ -57,6 +55,13 @@ session_start();
         //Echo session variables that were set on previous page
         echo "Total is " . $_SESSION["total"] . " euros.";
         ?>
+        
+        <br/>
+        <br/>
+        
+        <p>Thank you for shopping with Excelsior Cloud Computing Ltd!</p>
+        
+        <img src="http://www.animatedimages.org/data/media/1574/animated-success-image-0015.gif">
         
         <br/>
         <br/>
